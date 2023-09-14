@@ -6,7 +6,11 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('index', { message: 'Olá, Mundo!' });
+  res.render('index', { message: 'Produtos Principais' });
+});
+
+app.get('/produtodes', (req, res) => {
+  res.render('produtodes', { message: ' Destaq' });
 });
 
 app.listen(port, () => {

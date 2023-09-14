@@ -1,0 +1,16 @@
+h1{
+   text-align: center;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px solid #125ebb;
+    background-color:#125ebb;
+    box-shadow: 3px 5px rgb(174, 173, 175);
+}
+
+.ww{
+    text-align: center;
+}
