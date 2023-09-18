@@ -1,5 +1,14 @@
 body{
-   background-color: rgb(255, 255, 255);
+    padding: auto;
+   margin: 0 ;
+   background: #125ebb;
+}
+
+nav{
+    background-color: #2f3236; 
+    display: block;
+    max-height: 100px;
+   box-shadow: 3px solid rgb(174, 173, 175) ;
 }
 
 .grid{
@@ -7,45 +16,78 @@ body{
 }
 
 .links{
-    color: #f0f0f0;
-}
-
-a{
-    font-size: 25px;
-    text-decoration: none;
-}
-
-
-h1{
-   text-align: center;
-   color: rgb(0, 0, 0);
-}
-
-p{
     font-size: 25px;
     color: rgb(255, 255, 255);
     text-align: center;
     border: 3px solid #125ebb;
     background-color:#125ebb;
     box-shadow: 3px 5px rgb(174, 173, 175);
+    background-color: #125ebb;
 }
 
-.container{
-    border-style: inset;
-  padding: 15px 20px 15px;
-  background-color: rgb(202, 202, 202);
-  align-items: center;
-  text-align: center;
-  margin-bottom: 25px;
+
+a{
+    
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+h1{
+   text-align: center;
+   color: rgb(0, 0, 0);
+   background-color: #bbbbbb;
+}
+
+  .container{
+    background-color: rgb(94, 94, 94);
+  padding: 20px;
+  margin-bottom: 20px;
+ 
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+  .Produtos{
+    display: grid; 
+    border-style: inset;
+    padding: 15px;
+    background-color:rgb(255, 255, 255) ;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
   flex-direction: column;
   border-radius: 20px;
+  
   color: rgb(0, 0, 0);
-}
 
+  }
+
+  .f{
+    font-size: 25px;
+    color: #b42a0f;
+   background-color: #bbbbbb;
+  }
 
 
 .ww{
     text-align: center;
+    
+}
+
+p{
+    font-size: 25px;
+    color: #b42a0f;
+}
+
+.btn{
+    font-size: 25px;
+    color: #b42a0f;
+    border-radius: 20px;
     
 }
