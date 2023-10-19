@@ -40,6 +40,18 @@ h1{
    background-color: #bbbbbb;
 }
 
+.maispro{
+  background-color: rgb(94, 94, 94);
+  padding: 20px;
+  margin-bottom: 20px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
   .container{
     background-color: rgb(94, 94, 94);
   padding: 20px;
