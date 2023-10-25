@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
   res.render('index', { message: 'Produtos Principais' });
 });
 
-app.get('/produtodesq', (req, res) => {
-  res.render('produtodesq', { message: ' Mais' });
+app.get('/prods', (req, res) => {
+  res.render('prods', { message: ' Mais' });
 });
 
 app.get('/prod', (req, res) => {
