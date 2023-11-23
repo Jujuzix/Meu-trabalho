@@ -120,3 +120,10 @@ img{
 }
 
 
+.rodape{
+  color: #ffffff  ;
+  background-color: #2f3236;
+  padding: 45px;
+  height: 50px; 
+  text-align: center;
+}
