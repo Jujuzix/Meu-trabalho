@@ -28,8 +28,9 @@ app.get('/', (req, res) => {
   res.render('index', { produtos });
 });
 
-app.get('/prods', (req, res) => {
-  res.render('prods', { message: ' Mais' });
+app.get('/produtos/:id', (req, res) => {
+  const produto = buscarProdutoporId(req.params.id)
+  res.render('produtos', { produto });
 });
 
 

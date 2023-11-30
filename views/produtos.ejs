@@ -1,0 +1,58 @@
+
+
+
+<!DOCTYPE html>
+
+<head>
+  <title>Projeto Express e EJS</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+
+  <header>
+    <nav>
+      <div class="parte 1">
+        <img src="https://th.bing.com/th/id/OIP.EE1ztuRpmeI1IUij3dwPfAHaDt?pid=ImgDet&rs=1.png" style="width: 125px;" class="logo"></img>
+        <div class="links">
+              <a  href="/">Principal -</a>
+              <a  href="/prods" >Produto Destaque</a>
+              
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+
+  <div class="container">
+    <div class="dentrodiv">
+     
+        <div class="Produtos">
+          <h1>
+            <%= produto.nome %>
+          </h1>
+          <img src=<%=produto.img %>
+          <h2>
+            <%= produto.descricao %>
+          </h2>
+          <p class="f">
+            <%= produto.preco%>
+          </p>
+  
+          <button class="btn"> <a href="/produtos/<%=produto.id%>">
+              <p>Saiba Mais</p>
+            </a></button>
+        </div>
+    </div>
+  
+    
+  
+  </div>
+  
+  <footer>
+    <p class="rodape">&copy;2023 Internet & cia. Todos os direitos reservados.</p>
+  </footer>
+  
+  </body>
+</html>
+
+ 
+    
