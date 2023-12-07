@@ -25,27 +25,28 @@
 
 
 <div class="container">
- 
-    <% for (let produto of produtos ){ %>
-      <div class="Produtos">
-        <h1>
-          <%= produto.nome %>
-        </h1>
-        <img src=<%=produto.img %>
-        <h2>
-          <%= produto.descricao %>
-        </h2>
-        <p class="f">
-          <%= produto.preco%>
-        </p>
 
-        <button class="btn"> <a href="/produtos/<%=produto.id%>">
-            <p>Saiba Mais</p>
-          </a></button>
-      </div>
-  
+  <% for (let produto of produtos ){ %>
+    <div class="Produtos">
+      <h1>
+        <%= produto.nome %>
+      </h1>
+      <img class="imagem" src=<%=produto.img %>
 
-  <% } %>
+      <h2 class="desc">
+        <%= produto.descricao %>
+      </h2>
+      <p class="f">
+        <%= produto.preco%>
+      </p>
+
+      <button class="btn"> <a href="/produtos/<%=produto.id%>">
+          <p>Saiba Mais</p>
+        </a></button>
+    </div>
+
+
+    <% } %>
 
 </div>
 
